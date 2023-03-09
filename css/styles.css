@@ -1,0 +1,160 @@
+:root {
+  --body-text: #434455;
+  --title-text: #2e2f42;
+  --brand-color: #4d5ae5;
+  --focus-color: #404bbf;
+  --white: #ffffff;
+  --background: #f4f4fd;
+  --footer-text: #e7e9fc;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: var(--body-text);
+  letter-spacing: 0.02em;
+  background-color: var(--white);
+}
+
+/* ========== COMPONENTS ========== */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color);
+}
+.logo > span {
+  color: var(--title-text);
+}
+.footer span {
+  color: var(--background);
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--title-text);
+}
+.subtitle {
+  font-weight: inherit;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text);
+}
+.description-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--body-text);
+}
+
+/* ========== /COMPONENTS ========== */
+/* ========== NAVIGATION ========== */
+.addres-nav {
+  font-style: normal;
+}
+.menu-link {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--title-text);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--focus-color);
+}
+.contact-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* color: var(--title-text); */
+  color: #434455;
+}
+.contact-info:hover,
+.contact-info:focus {
+  color: var(--focus-color);
+}
+/* ========== /NAVIGATION ========== */
+/* ========== Hero section ========== */
+.hero {
+  background-color: #2e2f42;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  background-color: #2e2f42;
+}
+.modal-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background: var(--brand-color);
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: var(--focus-color);
+}
+
+/* ========== /Hero section ========== */
+/* ========== Section 1. What are we doing. Text ========== */
+/* ========== /Section 1. What are we doing. Text ========== */
+/* ========== Section 2. What are we doing. Image ========== */
+/* ========== /Section 2. What are we doing. Image ========== */
+/* ========== Section 3. Team ========== */
+.team {
+  background-color: var(--background);
+}
+/* ========== /Section 3. Team ========== */
+/* ========== Footer ========== */
+.footer {
+  background: var(--title-text);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--footer-text);
+}
+/* ========== /Footer ========== */
+/* --------------------------------------------- portfolio */
+.filter-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--brand-color);
+  background: var(--background);
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white);
+  background: var(--focus-color);
+}
